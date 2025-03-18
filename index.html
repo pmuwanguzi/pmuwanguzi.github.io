@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Paul Muwanguzi | Software Engineer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>PAUL MUWANGUZI</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="about">
+        <img
+          src="assets/images/Paul_Muwanguzi_photo.png"
+          alt="paul-muwanguzi"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Passionate about solving complex problems,upskilling, inovation, critical thinking, Artificial inteligence. 
+            I enjoy learning on the go however, eversince I met python I fell in love with solving problems with code. 
+          </p>
+        </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I believe that the world today has all the tools needed to solve 90 percent of the
+        problems we face. However it comes down to bringing the right minds together. 
+      </p>
+      <p>
+        That leads to my next passion networking and colaboration, I'm passionate about building teams, colaborating and networking because this gets complex problems into perspective. There is a saying that a problem shared is a problem half solved.
+      </p>
+      <p>
+        With the power of opensource we have seen space technology take lips and bounds and that my other passion, opensource. It's through opensource that many of us techies have gotten a chance to look at world changing lines of code. 
+
+        Thank you to all the opensource activists out there, Keep coding and commenting!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-python-94.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects section -->
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/tetris.jpg"
+            alt="tris"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Tetris</h3>
+          <p class="project-details">
+            Tetris is one of those games that almost every child played in the 90s
+            I had to give it a try.
+          </p>
+          <a href="https://github.com/muwanguzipoloe/react-tetris" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/react-contact-list.jpeg"
+            alt="react-contact-list"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">React Contact List </h3>
+          <p class="project-details">
+            At every developer's stage there is a need to play with an API. 
+            This is one of those for me.
+          </p>
+          <a href="https://github.com/muwanguzipoloe/react-contact-list" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/regex-extractor.png"
+            alt="regex-extractor"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Regex Data Extractor</h3>
+          <p class="project-details">
+            Data is the the new oil, but it's only as valuable at the level of information that can be extracted from it.
+          </p>
+          <a href="https://github.com/pmuwanguzi/alu_regex-data-extraction-pmuwanguzi" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/muwanguzipoloe@gmail.com" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://x.com/DeeJay_PERUZ" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/deejay.peruz/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/paul-muwanguzi-5337a136/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/muwanguzipoloe" target="_blank"
+        >1<img src="assets/icons/icons8-github.gif" alt="Github_1" class="socicon"
+      /></a>
+      <a href="https://github.com/pmuwanguzi" target="_blank"
+        >2<img src="assets/icons/icons8-github.gif" alt="Github_2" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2025</p>
+      <p class="copy">
+        Built by
+        <a href="https://x.com/DeeJay_PERUZ" target="_blank"
+          >Paul Muwanguzi</a
+        >
+      </p>
+    </footer> 
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
